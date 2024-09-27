@@ -1,0 +1,115 @@
+.nav {
+    height: 100px;
+    width: auto;
+    background: linear-gradient(to top, #973131, #F5E7B2);
+    display: flex;
+    box-shadow: 0px 12px 18px gray;
+    animation: navs 4s infinite linear;
+    transition: navs 3s ease;
+}
+@keyframes navs {
+    0% {
+        background: linear-gradient(to top, #973131, #F5E7B2);
+    }
+    100% {
+        background: linear-gradient(to left, #973131, #F5E7B2);
+    }
+}
+
+#word {
+    padding: 10px;
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+#name {
+    padding: 10px;
+    margin-left: 70%;
+    font-size: 25px;
+}
+
+#mainbody {
+    height: 60vh;
+    width: 100vh;
+    background: linear-gradient(to left, goldenrod, wheat);
+    margin-top: 15vh;
+    border-radius: 10px;
+    animation: body 3s linear infinite;
+}
+@keyframes body {
+    0% {
+        border-radius: 60px 10px 60px 10px;
+    }
+    50% {
+        border-radius: 10px;
+    }
+    100% {
+        border-radius: 60px 10px 60px 10px;
+    }
+}
+.body {
+    height: 100vh;
+    width: auto;
+    background: linear-gradient(to bottom, #982B1C, #F2E8C6);
+    display: flex;
+    justify-content: center;
+}
+
+#input {
+    width: 150px;
+    height: 30px;
+    text-indent: 10px;
+    border-radius: 10px;
+    border: 0;
+    transition: all 0.3s ease;
+}
+#input:hover {
+    width: 200px;
+    height: 40px;
+}
+
+#btn, button {
+    margin-top: 2vh;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    margin-bottom: 3vh;
+    background-color: maroon;
+    font-weight: bold;
+    color: whitesmoke;
+    box-shadow: 0px 10px 12px gray;
+    margin-left: 10px;
+}
+
+#des {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#notes {
+    background: linear-gradient(to bottom, wheat, maroon);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+h2, h3 {
+    animation: todo 6s infinite linear;
+}
+
+@keyframes todo {
+    0% {
+        color: goldenrod;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    50% {
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    100% {
+        color: maroon;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}

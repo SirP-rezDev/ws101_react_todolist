@@ -1,0 +1,7 @@
+#foot {
+    color: wheat;
+}
+.Footer {
+    background: linear-gradient(to bottom, wheat, maroon);
+    padding: 10px;
+}
